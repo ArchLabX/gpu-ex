@@ -6,7 +6,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
-#SBATCH --gres=gpu:1
+#SBATCH --gpus=1
+#SBATCH --partition=rtx-devel
 
 # Replace this with your Unity allocation account.
 #SBATCH --account=YOUR_ACCOUNT
